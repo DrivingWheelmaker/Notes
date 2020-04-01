@@ -159,7 +159,6 @@ HTML 链接通过标签 ` <a>` 来定义.
 ```
 
 <table border="1">     <tr>         <th>Header 1</th>         <th>Header 2</th>     </tr>     <tr>         <td>row 1, cell 1</td>         <td>row 1, cell 2</td>     </tr>     <tr>         <td>row 2, cell 1</td>         <td>row 2, cell 2</td>     </tr> </table>
-
 ### HTML列表
 
 有序列表
@@ -310,7 +309,6 @@ Username: <input type="text" name="user">
 ```
 
 <iframe src="./References/html/GitTutorial.html" frameborder="0"></iframe>
-
 下面示例是点击链接加载iframe页面：
 
 ```
@@ -349,7 +347,6 @@ Username: <input type="text" name="user">
 <samp> code sample </samp>
 
 <pre>pre-formatted text</pre>
-
 #### HTML 引文, 引用, 及标签定义
 
 | 标签           | 描述                          |
@@ -363,7 +360,6 @@ Username: <input type="text" name="user">
 | `<dfn>`        | 定义<dfn>一个定义项目。</dfn> |
 
 <blockquote>长的引用</blockquote>
-
 ## HTML属性
 
 属性一般描述于**开始标签**，属性总是以名称/值对的形式出现，比如 `name="value"` .
