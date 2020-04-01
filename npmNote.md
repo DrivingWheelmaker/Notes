@@ -1,6 +1,10 @@
 # Using npm
 
-虽然有官方文档https://docs.npmjs.com/getting-started/，但是有点难以阅读，故在此digest。
+> 写在前面：
+>
+> 阅读本文，需要先了解 [Node.js](./NodeJsNote.md) 是什么
+>
+> 虽然有官方文档https://docs.npmjs.com/getting-started/，但是有点难以阅读，故在此digest。
 
 
 

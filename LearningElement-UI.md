@@ -1,6 +1,8 @@
 # Learning Element-UI
 
-
+> 写在前面：
+>
+> 阅读基础：知道[Node.js](./NodeJsNote.md) 是什么，[会使用 npm](./npmNote.md)
 
 ## 始于官方文档
 
