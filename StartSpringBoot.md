@@ -1,5 +1,13 @@
 # Start Spring Boot <small>with IDEA</small>
 
+> 写在前面：
+>
+> 这篇文章目前烂尾。实际上要在IDEA上开始一个SpringBoot项目的话你只需要按照[【Spring Boot入门经典】Spring Boot Tutorial for Beginners (Java Framework)](https://www.bilibili.com/video/BV1RJ411D7qL?from=search&seid=4793930998208095343)里最开始的方法做一下就好了。不用像接下来写的这么麻烦。
+>
+> 啊！对！你还是要先装一个Java的！！！不过好弄！百度“如何下载 jvm” （jvm就是Java Virtual Machine，Java虚拟机，就是运行Java的环境） 就好啦！
+>
+> 你要是装好了jvm，最好写一个 ” How to install JVM“ 的笔记哦
+
 ## 环境
 
 ### Java
