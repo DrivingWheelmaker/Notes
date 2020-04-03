@@ -120,66 +120,6 @@ new Vue({
 
 > 这里已经添加到叮叮任务：在自己的电脑上实践一下。不过你不要在我们的项目repo里操作。就随便找一个地方新建一个vue项目。试完了删掉就好了。我已经在项目repo里创建好了我们专用的项目，不需要你重新创建了。从github上clone一下，这是一个新的repo，叫Shallow-FrontEnd，请放在DWM文件夹下面，跟Note和Shallow同级别就好了。
 
-## 理解 Vue
+### 深入理解原理
 
-### 分析：Vue的启动方式
-
-首先看一下一个自动生成的Vue项目的目录结构：
-
-```tree
-.
-├── README.md
-├── build
-├── config
-├── index.html
-├── node_modules
-├── package-lock.json
-├── package.json
-├── src
-│   ├── App.vue
-│   ├── assets
-│   ├── components
-│   ├── main.js
-│   └── router
-├── static
-└── test
-```
-
-首先会从 index.html 启动（因为毕竟前端归根结底就是一份html文件）：
-
-```HTML
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>shallow-fe</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
-</html>
-```
-
-可以看到这里的body部分是一个 id="app" 的 div。然后div中的内容自动填充。
-
-填充的过程就来自于下一个文档 main.js：
-
-```js
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-import App from './App.vue'
-Vue.use(ElementUI)
-
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
-```
-
-main.js 里的主要工作就是创建了一个Vue类的实例。
+因为Element-UI实际上是Vue的一个组件库，因此我们要深入理解 [Vue 的基础知识](./LearningVue.md)
