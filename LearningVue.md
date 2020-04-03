@@ -54,6 +54,8 @@ Vue是一个前端框架，只注重视图层，结合了HTML+CSS+JS，非常的
 
 填充的过程就来自于下一个文档 main.js：
 
+main.js 就相当于项目的入口文件，我们知道所有的程序都会有一个入口
+
 ```js
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.

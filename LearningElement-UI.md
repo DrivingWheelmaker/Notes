@@ -123,3 +123,51 @@ new Vue({
 ### 深入理解原理
 
 因为Element-UI实际上是Vue的一个组件库，因此我们要深入理解 [Vue 的基础知识](./LearningVue.md)
+
+
+
+## 开始开车
+
+### 首先来试试导航条
+
+```vue
+<el-menu
+  :default-active="activeIndex"
+  class="el-menu-demo"
+  mode="horizontal"
+  @select="handleSelect"
+  background-color="#545c64"
+  text-color="#fff"
+  active-text-color="#ffd04b">
+  <el-menu-item index="1">处理中心</el-menu-item>
+  <el-submenu index="2">
+    <template slot="title">我的工作台</template>
+    <el-menu-item index="2-1">选项1</el-menu-item>
+    <el-menu-item index="2-2">选项2</el-menu-item>
+    <el-menu-item index="2-3">选项3</el-menu-item>
+  </el-submenu>
+  <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
+</el-menu>
+```
+
+把这些代码直接扔到App.vue 的 `<div id="app">` 中。
+
+然后再再Script中添加：
+
+```
+	data () {
+    return {
+      activeIndex: '2-1'
+    }
+  },
+  methods: {
+    handleSelect (key, keyPath) {
+      console.log(key, keyPath)
+    }
+  }
+```
+
+![Screen Shot 2020-04-03 at 1.14.37 PM](/Users/yanghaowen/Homepage/Notes/References/Images/vue_with_element_ui_navigation_demo_screenshot.png)
+
+这样就写出了一个导航条
+
