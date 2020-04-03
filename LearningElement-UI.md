@@ -179,12 +179,29 @@ new Vue({
   }
 ```
 
-![Screen Shot 2020-04-03 at 1.14.37 PM](/Users/yanghaowen/Homepage/Notes/References/Images/vue_with_element_ui_navigation_demo_screenshot.png)
+<img src="/Users/yanghaowen/Homepage/Notes/References/Images/vue_with_element_ui_navigation_demo_screenshot.png" alt="Screen Shot 2020-04-03 at 1.14.37 PM" style="zoom: 50%;" />
 
 这样就写出了一个导航条
+
+
+
+### 使用 vue-router 来实现页面切换
+
+下图是一个可供参考的 main.js 与 router/index.js 与 permission.js 一览图
+
+![Screen Shot 2020-04-03 at 11.01.45 PM](/Users/yanghaowen/Homepage/Notes/References/Images/using_vue_router_to_jump_among_pages.png)
+
+图源：https://www.bilibili.com/video/BV1pE411c7rg
+
+一个可供参考的课程：https://www.bilibili.com/video/BV1wW41137bv  （这个视屏的instructor 英语水平感人，口音感人，所以还是别看了）
+
+
+
+
 
 ### 写一个TodoList 应用程序
 
 参考https://www.bilibili.com/video/BV1g4411L7Qa?t=271
 
 这个视屏会完全教会你怎么做这个TodoList
+
