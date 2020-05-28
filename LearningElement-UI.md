@@ -195,6 +195,8 @@ new Vue({
 
 一个可供参考的课程：https://www.bilibili.com/video/BV1wW41137bv  （这个视屏的instructor 英语水平感人，口音感人，所以还是别看了）
 
+好，大概了解了一下之后，就可以直接看官文了：https://router.vuejs.org/zh/guide/#html
+
 
 
 
